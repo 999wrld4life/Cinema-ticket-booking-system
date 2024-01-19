@@ -1,0 +1,46 @@
+current functionalities of my prototype
+--1. creates an account for a new user using his first name, last name and a password
+
+--2. generates a username for the new user using his first name, last name and numbers
+
+--3. logs in the new user using his auto-generated username and a strong password used during 
+     registration- note that this exactly follows after registration)
+
+--4. if the user has already registered, he can log in with his username and password(
+     there's an alternative path that lets the user log in if he already has an account)
+
+--5. lists the available movies, including their rating, showtime, genre and synopsis from a movie 
+     file that's populated with different movies
+
+--6. lets the user choose the movie he wants from the listed movies(searching functionality)
+
+--7. lets the user book a movie(if it's found) and choose his preferred seat number
+
+--8. the user then can see his booking history, which includes his information (his username),
+     the movie details and his selected seat
+     
+--9. Show available seats to the user 
+
+--10. for different users booking the same movie, there should be a way to avoid booking of the
+     same seat. 
+     
+--11. create a room class with the thought behind that the cinema has 3 rooms and each room
+     broadcasts only one movie. 
+     
+--12. add synopsis to the movies
+     
+remaining functionalities that i think are very important
+ --1. the program currently shows the booking history that's made during the running time of
+      the app(basically only one booking history for the specific user). But assume that if a
+      user makes multiple bookings multiple times, so it should be able to show the whole 
+      booking history for the user
+      
+--2. strong authentication --almost done
+
+--3. refactor the code to implement the DRY principle as much as possible
+
+
+     
+optional(fancy) functionalities
+--1. implementing GUI using either Swing or javaFX (Swing is kinda easy)
+
